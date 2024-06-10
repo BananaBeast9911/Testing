@@ -1,5 +1,5 @@
 {
-	"name": "Docker in Docker",
+	"name": "Privileged",
 	"dockerFile": "Dockerfile",
 	"runArgs": ["--init", "--privileged"],
 	"mounts": ["source=dind-var-lib-docker,target=/var/lib/docker,type=volume"],
